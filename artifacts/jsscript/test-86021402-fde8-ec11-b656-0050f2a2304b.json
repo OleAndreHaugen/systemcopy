@@ -1,0 +1,28 @@
+{
+	"id": "86021402-fde8-ec11-b656-0050f2a2304b",
+	"createdAt": "2022-06-10T20:36:31.093Z",
+	"createdBy": "jens-uwe.gross@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "test",
+	"ver": "22.6.10.2053",
+	"description": null,
+	"content": [
+		"==OBJECT STRING==",
+		"const query = await entityManager.query(\"select * from information_schema.schemata where schema_name = 'planet9'\");\r",
+		"\r",
+		"const a = false;\r",
+		"\r",
+		"console.log(typeof a);\r",
+		"\r",
+		"console.log(query);"
+	],
+	"useAsGlobalScript": false,
+	"isTypescript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"jsscriptGroup": "eeb7d97b-63c6-ec11-997e-dc9840109182",
+	"package": "e8ab41b8-63c6-ec11-997e-dc9840109182"
+}
