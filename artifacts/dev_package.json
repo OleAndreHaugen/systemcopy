@@ -32,11 +32,18 @@
 			"  }",
 			"}",
 			""
+		],
+		"readme": [
+			"==OBJECT STRING==",
+			"# systemcopy\r",
+			"Copy artifacts or table content between P9 systems\r",
+			"\r",
+			""
 		]
 	},
 	"name": "com.neptune-software.systemcopy",
 	"description": "System Copy of Artifacts and Data",
-	"ver": "22.6.11.755",
+	"ver": "22.6.11.757",
 	"enableCICD": true,
 	"apps": [
 		{
